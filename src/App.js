@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+import logo from './boule-de-feu.png';
 import './App.css';
+import Vehicules from './components/vehicules.component';
+import Sinistres from './components/sinistres.component';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h2><em>The DISPATCHER</em></h2>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <img src={logo}className="App-logo" alt="logo"/>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <label>Quel est le sinistre ?</label>
+        <select onChange="">          
+          <option>Incendie</option>
+          <option>Inondation</option>
+          <option>Animal en détresse</option>         
+        </select>        
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React V2
-        </a>
       </header>
+      <body className='App-body'>
+
+        <div className='App-sinistre'>
+          <Sinistres />
+        </div>       
+        <div className='App-caserne'>
+          <Vehicules />
+        </div>
+        
+      </body>
     </div>
   );
 }
