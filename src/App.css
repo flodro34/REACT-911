@@ -33,7 +33,7 @@
   background-color: #282c34;
   display: flex;
   padding-right: 10%;
-  padding-left: 25%;
+  padding-left: 5%;
 }
 
 .App-sinistre {
@@ -54,11 +54,19 @@
     transform: rotate(360deg);
   }
 }
-#truckCard {
+#lanceTruckCard {
+  background-color: rgb(82, 151, 190);
+  width: 300px;
+  border-radius: 15px;
+  margin: 10px ;
+}
+#citernTruckCard {
   background-color: rgb(82, 151, 190);
   width: 300px;
   border-radius: 15px;
   margin: 10px;
+  margin-left: 40px;
+  
 }
 #sinCard {
   background-color: rgb(82, 151, 190);
@@ -67,17 +75,16 @@
   margin: 10px;
 }
 
-#trucks {
+#vehicules {
   background-color: rgb(13, 56, 75);
-  width: 400px;
+  width: 700px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   border-radius: 15px;
 }
 #sinister {
-  background-color: rgb(13, 56, 75);
-  width: 400px;
+  background-color: rgb(13, 56, 75); 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,4 +93,17 @@
 
 h2 {
   color: white
+}
+
+img{
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+#displayVehicule {
+  background-color: rgb(13, 56, 75);
+  width: 700px;
+  border-radius: 15px;
+  margin-left:100px;
 }

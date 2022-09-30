@@ -11,12 +11,7 @@ function App() {
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <img src={logo}className="App-logo" alt="logo"/>
         <p>
-        <label>Quel est le sinistre ?</label>
-        <select onChange="">          
-          <option>Incendie</option>
-          <option>Inondation</option>
-          <option>Animal en détresse</option>         
-        </select>        
+               
         </p>
       </header>
       <body className='App-body'>
