@@ -31,7 +31,7 @@ export default function CiternTruck() {
            {
            citernTruck.map((v) => (
             <div id="citernTruckCard">
-                <img src={v.picture}/>
+                <img src={v.picture} alt=""/>
                 <h3>{v.name}</h3>
                 <h3>{v.capacity}</h3>              
             </div>

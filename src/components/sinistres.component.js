@@ -40,7 +40,7 @@ export default function Sinistres(){
     // };
     return (
         <div id="sinister">
-            <button onClick="">Quel sinistre ?</button>
+            <button id='butt-sin' onClick="">Quel sinistre ?</button>
             <h2>Sinistre en cours : </h2>
            {
            sinistres.map((v) => (
